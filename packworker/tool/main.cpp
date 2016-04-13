@@ -1,16 +1,4 @@
-/***************************************************************************
- *
- * Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
- * $Id: main.cpp, v1.0.0, 2015-07-29 10:33:03, mawentao(mawt@youzu.com) Exp $
- *
- **************************************************************************/
 
-/**
- * @file   main.cpp
- * @author mawentao(mawt@youzu.com)
- * @date   2015-07-29 10:33:03
- * @brief  主程序入口
- **/
 
 #include <cstdio>
 #include <cstdlib>

@@ -3,7 +3,7 @@ require_once("start.php");
 
 $subject = "打包中心异常监控";
 $content = "</br>打包中心异常，请相关人员关注。</br></br>".PHP_EOL;
-$to = array("xierl@youzu.com","wuj@uuzu.com","tangyy@uuzu.com");
+$to = array("");
 
 $dataEngine = new DataEngine();
 if($dataEngine->getQueneTasksMonitor()){

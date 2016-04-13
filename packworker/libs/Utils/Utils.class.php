@@ -36,8 +36,6 @@ class Utils {
 		return $cmd;
 	}
 	
-	//http://mobfile.youzu.com/show?pic=Uploads_image/2/e/a/d/eadf1eda9529216516c1af5a5dd3fa5f.png&size=1024_1024
-	//http://mobfile.youzu.com/show/Uploads_image/2/e/a/d/eadf1eda9529216516c1af5a5dd3fa5f_1024_1024.png
 	public static function transferPicUrl($oldUrl) {
                 if(strpos($oldUrl, 'mobfile.youzu.com/show?pic=Uploads_image') === false){
 			return $oldUrl;
@@ -337,11 +335,11 @@ class Utils {
 		$mail->isSMTP();
 		$mail->SMTPDebug = 0;
 		$mail->Debugoutput = 'html';
-		$mail->Host = "mail.uuzu.com";
+		$mail->Host = "";
 		$mail->Port = 25;
 		$mail->SMTPAuth = true;
-		$mail->Username = "icafe";
-		$mail->Password = "HOg1SVfmSyrsZzJn8W06";
+		$mail->Username = "";
+		$mail->Password = "";
 		$mail->setFrom($from, $from);
 		$mail->addReplyTo($from, $from);
 		if(is_array($to)){
